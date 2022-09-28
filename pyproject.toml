@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "img-in-py"
+name = "img_in_py"
 version = "0.1.0"
 description = "image processor in python"
 authors = ["Josh S Wilkinson <JoshsWilkinson@Outlook.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "src"}, {include = "images"}]
+packages = [{include = "img_in_py"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

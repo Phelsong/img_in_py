@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Py: Debug Package",
+      "type": "python",
+      "request": "launch",
+      "program": "${project.root}"
+    }
+    {
+      "name": "Python: File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "justMyCode": true
+    }
+  ]
+}
