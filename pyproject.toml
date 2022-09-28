@@ -5,7 +5,7 @@ description = "image processor in python"
 authors = ["Josh S Wilkinson <JoshsWilkinson@Outlook.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "img_in_py"}]
+packages = [{include = "src"}, {include = "images"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

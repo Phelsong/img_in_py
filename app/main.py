@@ -1,7 +1,8 @@
 import os
-import Classes.src_img as src_img
+import src.Classes.src_img as src_img
 #==============================
-path_to_file = os.path.join(os.path.dirname(__file__))
+dev_image = "images/python_logo.png" 
+path_to_file = os.path.dirname(__file__) + f'../{dev_image}'
 w_img = src_img(path_to_file)
 #============================================================================
 
