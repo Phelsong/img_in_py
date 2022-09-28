@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "img-in-py"
+version = "0.1.0"
+description = "image processor in python"
+authors = ["Josh S Wilkinson <JoshsWilkinson@Outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "img_in_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "^9.2.0"
+pandas = "^1.5.0"
+
+[tool.poetry.group.dev.dependencies]
+pendulum = "^2.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
